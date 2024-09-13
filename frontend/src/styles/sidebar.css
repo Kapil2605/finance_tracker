@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #e4dede;
+}
+
+body {
+    margin-left: 0px;
+}
+
+.sidebar {
+    margin-top: 3px;
+    margin-left: 0px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    position: fixed;
+    top: 69.5px; /* Adjust this according to the height of your navbar */
+    left: 0;
+    height: calc(100vh - 69.5px); /* Adjust height to account for the top offset */
+    border: 1px solid #cfcece;
+    overflow-y: auto; /* Add scrolling to sidebar if content overflows */
+    font-weight: 1000; /* Medium font weight */
+}
+
+.profile {
+    background-color: #e4dede;
+    height: 200px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+    background-color: white;
+}
+
+.sidebar ul li.active {
+    background-color: #ff4d4d;
+}

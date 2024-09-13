@@ -1,0 +1,41 @@
+.footer {
+    background-color: white; /* Matches the navbar and sidebar */
+    color: black;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 293px; /* Adjust based on the width of your sidebar */
+    position: relative; /* Ensure it stays in the flow of the document */
+    bottom: 0;
+    width: calc(100% - 295px); /* Ensure it takes up the remaining width */
+    border: 1px solid #cfcece;
+
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .footer-section {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#ff4d4d;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,186 @@
+/* src/styles/dashboard.css */
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff7f7; /* Light grey background */
+    margin-top: 2px; /* Space from the top */
+    margin-left: 293px; 
+    width: calc(100% - 335px); /* Ensure it takes up the remaining width */
+    }
+
+    .chart{
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff7f7; /* Light grey background */
+    margin-top: 2px; /* Space from the top */
+    margin-left: 293px; 
+    width: calc(100% - 335px); /* Ensure it takes up the remaining width */
+    width: 200px;
+    height: 200px;
+    }
+  
+  .box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #e3f2fd; /* Light Blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333333; /* Dark grey text */
+  }
+  
+  .box p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #eb5353; /* Primary color */
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .recent-transactions-container {
+    margin-top: 4px;
+    padding: 20px;
+    background-color: #fff7f7; /* Light grey background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 293px; 
+    width: calc(100% - 335px); /* Ensure it takes up the remaining width */
+
+}
+
+.recent-transactions-container h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333333; /* Dark grey text */
+}
+
+.transactions-table {
+    width: 100%;
+    background-color: rgb(37, 104, 65);;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions-table th, .transactions-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.transactions-table th {
+    background-color: rgb(254, 254, 254); /* Light grey background for headers */
+    font-weight: bold;
+    color: black; /* Dark grey text */
+    font-weight: 700 rem;
+}
+
+.transactions-table tr:hover {
+    background-color: white; /* Light hover effect */
+}
+
+.transactions-table td {
+    color: #00ff00; /* Medium grey text */
+    font-weight: 800; /* Medium font weight */
+}
+
+.add-income-button {
+    background-color: #ff4d4d; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-income-button:hover {
+    background-color: #f12b2b; /* Darker green on hover */
+  }
+  
+  .income-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .income-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1001;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .income-form h3 {
+    margin-bottom: 15px;
+  }
+  
+  .income-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .income-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .income-form button {
+    background-color: #ff4d4d; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .income-form button:hover {
+    background-color: #f12b2b; /* Darker green on hover */
+  }
+  .transactions-header {
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center;
+    margin-bottom: 20px;
+  }
